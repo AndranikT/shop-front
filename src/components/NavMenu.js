@@ -65,7 +65,7 @@ export default NavMenu;
 const NavContainer = styled.div`
   max-width: 200px;
   width: 100%;
-  height: 450px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   padding: 5px 0;

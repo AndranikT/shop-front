@@ -213,9 +213,10 @@ export const selectFilter = createSlice({
                         state.filterProducts = [];
                         state.filterProductsIsNotFound = [{type: "not-found"}]
                     }
-                } else {
+                }
+                else {
                     filterData = state.allProducts.filter((product) => {
-                        return product.brand === state.brandFilter[0].brand
+                        return product.brand === state.brandFilter[0]?.brand
                     })
                     if (state.locationFilter.length > 0) {
                         filterData = filterData.filter((product) => {

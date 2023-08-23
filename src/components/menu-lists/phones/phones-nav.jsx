@@ -93,17 +93,17 @@ const PhonesNav = () => {
                 <div onClick={handleReload} >
                 <FiRefreshCcw/>
                 </div>
-                <div onClick={()=> foo()}>
-                    <button> Click </button>
-                </div>
+                {/*<div onClick={()=> foo()}>*/}
+                {/*    <button> Click </button>*/}
+                {/*</div>*/}
             </ReloadAndBack>
             <select id={"location"} onChange={handleSelectChange}  value={location}>
-                <option >Location</option>
-                <option >Armenia</option>
-                <option >USA</option>
-                <option >Japan</option>
+                <option value="">Location</option>
+                <option value="Armenia">Armenia</option>
+                <option value="USA">USA</option>
+                <option value="Japan">Japan</option>
             </select>
-            <select id={"brand"} onChange={handleSelectChange}  value={brand}>
+            <select id="brand" onChange={handleSelectChange}  value={brand}>
                 <option value=""> Brand </option>
                 <option value="iphone">Iphone</option>
                 <option value="samsung">Samsung</option>
