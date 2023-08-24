@@ -137,7 +137,6 @@ const ProfileContainer = styled.div`
   color: rgba(22, 22, 31, 0.87);
   border-radius: 15px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  
   form {
     display: flex;
     flex-direction: column;
@@ -164,7 +163,7 @@ const Edit = styled.button`
   background: #4b70e2;
   color: #f9f9f9;
   font-size: 18px;
-  padding: 10px 35px;
+  padding: 10px 20px;
   border: white;
   border-radius: 5px;
   margin-top: 2rem;

@@ -221,7 +221,7 @@
 }
 .product{
     max-width: 100%;
-    width: 180px;
+    width: 170px;
     height: 300px;
     display: flex;
     flex-direction: column;
